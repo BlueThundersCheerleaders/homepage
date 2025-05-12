@@ -1,0 +1,189 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@600&display=swap');
+
+ /* デフォルト */
+        body {
+            font-family: sans-serif;
+            text-align: center;
+            background-color: #f9f9f9;
+            margin: 0 auto;
+            padding: 0;
+        }
+        img {
+            max-width: 100%;
+            height: auto;
+        }
+        .header, .group-photo {
+            margin-bottom: 10px;
+        }
+        
+        /* メンバー */
+        .members {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px 1rem;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 20px;
+            box-sizing: border-box;
+        }
+        .member {
+            width: 90px;
+        }
+        .member img {
+            width: 100%;
+            border-radius: 10px;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+        }
+        .member p {
+            margin-top: 8px;
+            font-weight: bold;
+            color: #243250
+        }
+        .member p1 {
+            margin-top: 1px;
+            font-size: 10px; 
+            color: #c0c0c0;
+        }
+        .title-member img{
+            display: flex;
+            justify-content: flex-start;
+            width: 40%;
+        }
+        
+        /* チーム・メンバーセクションのタイトル */
+        .section-title {
+            font-family: 'Playfair Display', serif;
+            font-weight: 600;
+            font-size: 2rem; 
+            color: #333;
+            text-align: left;
+            padding: 0 1rem 0.5em 1rem;
+            margin: 0 auto 0.5em auto;
+            border-bottom: 2px solid #333;
+            max-width: 1200px;
+            box-sizing: border-box;
+        }
+        .section-title .en {
+            font-size: 1.2em;
+            margin-right: 0.5em;
+        }
+        .section-title .jp {
+            font-size: 0.9em;
+            color: #666;
+        }
+        
+        .team-section,
+            .member-section {
+            width: 100%;
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 1rem;
+            box-sizing: border-box;
+        }
+        
+        /* チーム紹介 */
+        .philosophy-section {
+            padding: 5px 20px;
+            text-align: center;
+        }
+
+        .philosophy-title {
+            font-size: 20px;
+            color: #2e97bc;
+            font-weight: bold;
+            margin-bottom: 10px;
+        }
+
+        .be-with-us {
+            font-family: 'Cinzel', serif;
+            font-size: 28px;
+            color: #1d495d;
+            font-weight: 600;
+            margin: 0 0 10px 0;
+        }
+
+        .philosophy-text {
+            font-size: 16px;
+            line-height: 1.8;
+            margin-bottom: 30px;
+            color: #333;
+        }
+
+        
+        /* ヘッダー */
+        
+        .back-header {
+            background-color: #e8e8e8;
+            padding: 10px 20px;
+            text-align: left;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+       }
+
+        .back-button {
+            color: #fff;
+            text-decoration: none;
+            font-size: 16px;
+            font-weight: bold;
+            display: inline-flex;
+            align-items: center;
+            gap: 8px;
+            transition: opacity 0.3s ease;
+       }
+
+        .back-button i {
+            font-size: 18px;
+       }
+
+        .back-button:hover {
+            opacity: 0.7;
+       }
+
+        
+        /* フッター */
+        
+        .footer {
+            background: #003F8E;
+            color: #fff;
+            text-align: center;
+            padding: 40px 20px;
+        }
+
+        .social-icons {
+            margin-bottom: 20px;
+        }
+
+        .social-icons a {
+            color: #fff;
+            margin: 0 15px;
+            font-size: 24px;
+            transition: color 0.3s ease;
+        }
+
+        .social-icons a:hover {
+            color: #1da1f2; 
+        }
+
+        .footer-text {
+            font-size: 14px;
+            color: #aaa;
+        }
+        
+ /* パソコン向け（画面幅が768px以上のとき） */
+    @media (min-width: 768px) {
+        
+        body {
+            width: 1200px;
+            font-family: sans-serif;
+            text-align: center;
+            background-color: #f9f9f9;
+            margin: 0 auto;
+            padding: 0;
+            }
+
+        .member {
+            width: 135px;
+        }
+        
+        }
